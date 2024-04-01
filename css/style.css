@@ -1,0 +1,84 @@
+body {
+    background-color: white;
+    color: black;
+    min-height: 100vh;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.move-btn {
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.game-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.js-score {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.js-moves {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.js-result {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.reset-btn,
+.auto-btn {
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.reset-confirm {
+    background-color: white;
+    padding: 8px 15px;
+    font-size: 20px;
+    border: none;
+}
+
+.reset-confirm {
+    margin-left: 10px;
+}
+
+.toggler {
+    padding: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+#togglerIcon {
+    font-size: 20px;
+    font-weight: bold;
+}
